@@ -20,6 +20,19 @@ The project contains simple programs and exercises focused on understanding Pyth
 
 * **Python**
 
+## BMI Calculator
+
+`bmi_cal.py` is a desktop BMI calculator built with Tkinter. It supports metric and imperial units, shows the BMI classification, and can speak the result. The app also provides a classification chart and a trend chart for results calculated during the current session.
+
+### Run the Calculator
+
+Use Python 3 with Tkinter available, then install the additional packages and launch the app:
+
+```bash
+python -m pip install matplotlib pyttsx3
+python bmi_cal.py
+```
+
 ## 🎯 Project Purpose
 
 This repository was created as a practical learning project to strengthen my understanding of **Python programming and fundamental problem-solving techniques** through hands-on scripting.
